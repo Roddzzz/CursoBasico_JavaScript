@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de exercicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Verificador de idade</h1>
+  </header>
+  <section>
+    <div>
+      <p>Ano nascimento: <input type="number" name="anonas" id="anonas" min="0">
+      </p>
+      <p>
+        Sexo: 
+        <input type="radio" name="radsex" id="mas" checked>
+        <label for="mas">Masculino</label>
+        <input type="radio" name="radsex" id="fem">
+        <label for="fem">Feminino</label>
+      </p>
+      <p>
+        <input type="button" value="Verificar" onclick="verificar()">
+      </p>
+    </div>
+    <div>
+      <img id="fotinho" src="https://i.pinimg.com/736x/12/52/9e/12529e293c44dc8b81c9277d8d62dd9f.jpg" alt="Foto">
+    </div>
+    <div id="res">
+      
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Rodrigo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

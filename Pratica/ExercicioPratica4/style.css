@@ -1,0 +1,38 @@
+body {
+  background: rgb(84, 84, 223);
+  font: normal 15pt Arial;
+
+}
+
+header {
+  color: white;
+  text-align: center;
+
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.603);
+
+}
+.Listanumero {
+  text-align: left;
+}
+
+
+#botao {
+  width: 100px;
+  margin-left: 310px;
+  margin-top: 20px;
+}
+
+
+footer {
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
